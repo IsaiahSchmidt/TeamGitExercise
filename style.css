@@ -1,0 +1,20 @@
+header {
+    text-align: center;
+}
+
+
+#body {
+    width: auto;
+}
+.card {
+    width: 50%;
+    text-align: center;
+}
+
+#brandon {
+    float:right;
+}
+
+#isaiah {
+    float:left;
+}

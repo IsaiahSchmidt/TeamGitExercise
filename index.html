@@ -10,18 +10,22 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="./style.css">
     <title>Team Git</title>
   </head>
   <body>
 
+    <header>
     <h1>Heisenberg</h1>
     <h2> - "We are the ones who knock"</h2>
-
-
-    <div class="card">
+  </header>
+  <div id="body">
+    <div class="card" id="brandon">
       <div class="card-body">
+        <img src="https://avatars.cloudflare.steamstatic.com/f2fdd0275a42cec950c852f1ca31649a2b1d02fa_full.jpg" class="card-img-top" alt="Brandon's Profile picture" style="width:300px">
         <h4>Brandon Byrd</h4>
-        <p class="card-text">Hobbies</p>
+        <p class="card-text">Hobbies:</p>
         <ul class="card-text">
           <li>Coding</li>
           <li>Gaming</li>
@@ -33,7 +37,8 @@
     </div>
 
     <div class="card">
-      <div class="card-body">
+      <div class="card-body" id="isaiah">
+        <img src="./pictures/heisenberg.jpg" class="card-img-top" alt="Isaiah's Profile picture"  style="width:300px">
         <h4>Isaiah Schmidt</h2>
         <p class="card-text">Hobbies:</p>
         <p class="card-text">Lifting weights</p>
@@ -42,6 +47,7 @@
         <p class="card-text">From Kokomo, IN</p>
       </div>
     </div>
+  </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
